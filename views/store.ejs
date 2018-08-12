@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!-- Font awesome icons -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- RALEWAY FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500" rel="stylesheet">
+
+  <!-- Roboto font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+  <title>HASH</title>
+
+  <style>
+    a:link {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    a:active {
+      text-decoration: none;
+    }
+
+
+    /* unvisited link */
+
+    a:link {
+      color: blue;
+    }
+
+    /* visited link */
+
+    a:visited {
+      color: white;
+    }
+
+    /* mouse over link */
+
+    a:hover {
+      color: hotpink;
+    }
+
+    /* selected link */
+
+    a:active {
+      color: blue;
+    }
+
+    .iframeW {
+      background: red;
+      margin-left: 500px;
+    }
+  </style>
+
+</head>
+
+<style type="text/css">
+</style>
+
+<body>
+
+  <div class="page-container">
+
+    <div class="row">
+
+      <!-- SIDENAV BEGINS -->
+
+
+      <div class="col-lg-2 sidenav">
+        <div class="title">
+          <a href="/store">MARKET</a>
+        </div>
+        <div class="title">
+          <a href="/access">SHOWTIME</a>
+        </div>
+        <div class="title">
+          <a href="/up">UPLOAD</a>
+        </div>
+        <div class="title">
+          <a href="/transfer">TRANSFER</a>
+        </div>
+        <div class="title">
+          <a href="/dagger">DAGGER LOGS</a>
+        </div>
+      </div>
+
+      <!-- SIDENAV ENDS -->
+
+
+
+
+
+
+      <!-- MAIN BODY BEGINS -->
+
+
+      <div class="offset-lg-2 col-lg-10 main-body">
+
+
+        <div class="row">
+          <div class="title col-4 kryp">
+            KRYTPO MEDIA
+          </div>
+
+          <div class="col-8 text-right search">
+            <input type="search" class="search" name="search" placeholder="search" id="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card top-card">
+              <div class="card-body">
+                <div class="top-card-title text-center text-white">
+                  <strong>Digital Media Tokens</strong>
+                </div>
+                <br>
+                <div class="top-card-body">
+                  Convert digital media ( Music, PDF, videos, images etc ) into ERC-721 tokens so that the content can be used as "currency"
+                  on the blockchain network.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="divider">SELL ASSET</div>
+
+        <div class="row">
+
+          <!-- ROW STARTS -->
+
+          <div class="col-4 text-left search">
+            <input type="search" class="search" name="token-id" placeholder="TOKEN-ID" id="token-id">
+          </div>
+          <div class="col-4 text-left search">
+            <input type="search" class="search" name="symbol" placeholder="PRICE" id="price">
+          </div>
+
+          <br>
+          <br>
+          <button class="btn btn-primary" style="width: 10vw; margin: auto;" onclick="sellAsset(token-id, price)">GO</button>
+
+
+        </div>
+        <br>
+        <br>
+        <div class="divider">BUY ASSET</div>
+
+        <div class="row">
+          <div class="col-4 text-left search">
+            <input type="search" class="search" name="token_id" placeholder="TOKEN-ID" id="token-id">
+          </div>
+          <div class="col-4 text-left search">
+            <input type="search" class="search" name="token_id" placeholder="SYMBOL" id="symbol">
+          </div>
+
+          <br>
+          <br>
+          <button class="btn btn-primary" style="width: 10vw;margin: auto;" onclick="buyAsset(token_id)">GO</button>
+
+
+        </div>
+        <br>
+        <br>
+        <div class="title col-4">
+          EXPLORE
+        </div>
+
+        <div class="divider">MUSIC</div>
+
+        <div class="row">
+
+          <!-- ROW STARTS -->
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/music1.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/music2.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/music3.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/music4.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/music5.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/music6.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+        </div>
+
+        <!-- ROW ENDS -->
+
+        <div class="divider">MOVIES</div>
+
+        <div class="row">
+
+          <!-- ROW STARTS -->
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/movie1.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/movie2.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/movie3.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/movie4.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/movie5.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/movie6.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <!-- ROW ENDS -->
+
+
+        </div>
+
+        <div class="divider">BOOKS</div>
+
+        <div class="row">
+
+          <!-- ROW STARTS -->
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/book1.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/book2.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/book3.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+          <!-- ROW ENDS -->
+
+
+        </div>
+
+        <div class="divider">GAMES</div>
+
+        <div class="row">
+
+          <!-- ROW STARTS -->
+
+          <div class="zoom" style="float:left;margin:0.5em;">
+            <img src="../images/icons/game1.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <div class="zoom" style="margin:0.5em;">
+            <img src="../images/icons/game2.jpg" height="200" width="150" onclick="img()">
+
+          </div>
+
+          <!-- ROW ENDS -->
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+      <!-- MAIN BODY ENDS -->
+
+    </div>
+
+
+    <!-- ALL MODALS -->
+
+    <div class="modal fade" id="Microsoft" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document" style="padding: 0">
+        <div class="modal-content">
+          <div class="modal-body">
+
+            <h4 class="text-center">Microsoft Campus Hackathon 1.0</h4>
+            <div class="text-center">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>Feb 3, 2018 - Feb 4, 2018</div>
+            <div class="text-center">
+              <i class="fa fa-map-marker" aria-hidden="true" style="padding: 5px"></i>
+              Galgotias College of Engineering and Technology, Greater Noida
+            </div>
+            <br>
+
+            <img src="https://hacksociety.tech/assets/img/events/31.png" style="max-width: 100%">
+
+            <br>
+
+            <p style="margin-top: 2vh">
+              We are organizing the first edition of Microsoft Campus Hackathon at Galgotias College of Engineering and Technology. MCH
+              Hack 1.0 is a platform for developers, designers and inventors to code, design and hack some amazing solution
+              for real-world problem. Whether we are the first time coders or a pro come join us, build something amazing.
+              We will provide you food, swags and fun to have an amazing weekend. We can not wait to see what you build at
+              the hackathon.
+            </p>
+
+            <p>
+              ☻ Log on to our website http://mchgalgotias.tech for more details about theme.
+            </p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Visit link</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+    if (typeof web3 !== 'undefined') {
+      web3 = new Web3(web3.currentProvider);
+    } else {
+      // set the provider you want from Web3.providers
+      web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    }
+    console.log("the defualt account is " + web3.eth.defaultAccount);
+    var DeployerContract = web3.eth.contract([
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "keyvalue",
+            "type": "string"
+          }
+        ],
+        "name": "getAddressFromCores",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "symbol",
+            "type": "string"
+          }
+        ],
+        "name": "createCore",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      }
+    ]);
+    var DeployerContractAddress = "0xf382979f7598ba321295e3b9d111fcdead2c051c";
+    var CoreDeployer = DeployerContract.at(DeployerContractAddress);
+    var CoreContract = web3.eth.contract([
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_interfaceID",
+            "type": "bytes4"
+          }
+        ],
+        "name": "supportsInterface",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "name",
+        "outputs": [
+          {
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_to",
+            "type": "address"
+          },
+          {
+            "name": "_tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "approve",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "totalSupply",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "tokenIndexToOwner",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_from",
+            "type": "address"
+          },
+          {
+            "name": "_to",
+            "type": "address"
+          },
+          {
+            "name": "_tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "transferFrom",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "ownerOf",
+        "outputs": [
+          {
+            "name": "owner",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_owner",
+            "type": "address"
+          }
+        ],
+        "name": "balanceOf",
+        "outputs": [
+          {
+            "name": "count",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_owner",
+            "type": "address"
+          }
+        ],
+        "name": "tokensOfOwner",
+        "outputs": [
+          {
+            "name": "ownerTokens",
+            "type": "uint256[]"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "symbol",
+        "outputs": [
+          {
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "tokenIndexToApproved",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_to",
+            "type": "address"
+          },
+          {
+            "name": "_tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "transfer",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "nonce",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "personalMessage",
+            "type": "string"
+          },
+          {
+            "name": "hashprefix",
+            "type": "string"
+          },
+          {
+            "name": "_assetType",
+            "type": "uint256"
+          }
+        ],
+        "name": "_generateAssets",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "assets",
+        "outputs": [
+          {
+            "name": "assetHash",
+            "type": "string"
+          },
+          {
+            "name": "creationTime",
+            "type": "uint64"
+          },
+          {
+            "name": "assetType",
+            "type": "uint256"
+          },
+          {
+            "name": "assetStatus",
+            "type": "uint256"
+          },
+          {
+            "name": "personalisedMessage",
+            "type": "string"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "symbol",
+            "type": "string"
+          }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "_tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "Approval",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "to",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "tokenId",
+            "type": "uint256"
+          }
+        ],
+        "name": "Transfer",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "name": "",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "",
+            "type": "string"
+          },
+          {
+            "indexed": false,
+            "name": "",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "name": "AssetCreated",
+        "type": "event"
+      }
+    ]);
+
+    var myContract = web3.eth.contract([
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "amt",
+            "type": "uint256"
+          },
+          {
+            "name": "_to",
+            "type": "address"
+          }
+        ],
+        "name": "_payment",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ]);
+
+    var token_id = document.getElementById('token-id').value;
+    var sym = document.getElementById('symbol').value;
+    function buyAsset() {
+      CoreDeployer.getAddressFromCores(sym, function (err, res) {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("address is" + res);
+          var CoreInstance = CoreContract.at(res);
+          var myContractInstance = myContract.at("0x6cc739fa17c2e0d89eec95e59c38277836909b09");
+          console.log("coreinstance is " + CoreInstance);
+          console.log("DaiContract Instance" + myContractInstance);
+          myContractInstance._payment(100000000000000000, '0x1e50625059c7b660a02eff14c965c01c42be9fec', function (err, res0) {
+            if (err) {
+              console.log(err);
+            } else {
+              console.log(res);
+            }
+          })
+        }
+      })
+    }
+  </script>
+</body>
+
+</html>

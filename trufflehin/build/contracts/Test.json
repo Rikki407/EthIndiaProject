@@ -1,0 +1,291 @@
+{
+  "contractName": "Test",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "hi",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b60a38061001c6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063a99dca3f146044575b600080fd5b3415604e57600080fd5b6054606e565b604051808215151515815260200191505060405180910390f35b600060019050905600a165627a7a72305820268fb9dd8cd99aee30308bbd9bf40f4b1e39a502bed0bf5b2188904185793fee0029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063a99dca3f146044575b600080fd5b3415604e57600080fd5b6054606e565b604051808215151515815260200191505060405180910390f35b600060019050905600a165627a7a72305820268fb9dd8cd99aee30308bbd9bf40f4b1e39a502bed0bf5b2188904185793fee0029",
+  "sourceMap": "26:101:6:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "26:101:6:-;;;;;;;;;;;;;;;;;;;;;;;;46:79;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;68:4;89;82:11;;46:79;:::o",
+  "source": "pragma solidity ^0.4.18;\n\ncontract Test {\n    function hi() returns(bool) {\n      return true;\n        // Starts paused\n    }\n}\n",
+  "sourcePath": "/Users/rikki/RikkiChains/KryptoMedia---Tokenizing-Digital-Media-Content/trufflehin/contracts/Test.sol",
+  "ast": {
+    "absolutePath": "/Users/rikki/RikkiChains/KryptoMedia---Tokenizing-Digital-Media-Content/trufflehin/contracts/Test.sol",
+    "exportedSymbols": {
+      "Test": [
+        823
+      ]
+    },
+    "id": 824,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 814,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 823,
+        "linearizedBaseContracts": [
+          823
+        ],
+        "name": "Test",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 821,
+              "nodeType": "Block",
+              "src": "74:51:6",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "74727565",
+                    "id": 819,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "89:4:6",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "functionReturnParameters": 818,
+                  "id": 820,
+                  "nodeType": "Return",
+                  "src": "82:11:6"
+                }
+              ]
+            },
+            "id": 822,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "hi",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 815,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "57:2:6"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 818,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 817,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 822,
+                  "src": "68:4:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 816,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "68:4:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "67:6:6"
+            },
+            "scope": 823,
+            "src": "46:79:6",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 824,
+        "src": "26:101:6"
+      }
+    ],
+    "src": "0:128:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/rikki/RikkiChains/KryptoMedia---Tokenizing-Digital-Media-Content/trufflehin/contracts/Test.sol",
+    "exportedSymbols": {
+      "Test": [
+        823
+      ]
+    },
+    "id": 824,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 814,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 823,
+        "linearizedBaseContracts": [
+          823
+        ],
+        "name": "Test",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 821,
+              "nodeType": "Block",
+              "src": "74:51:6",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "74727565",
+                    "id": 819,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "89:4:6",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "functionReturnParameters": 818,
+                  "id": 820,
+                  "nodeType": "Return",
+                  "src": "82:11:6"
+                }
+              ]
+            },
+            "id": 822,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "hi",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 815,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "57:2:6"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 818,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 817,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 822,
+                  "src": "68:4:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 816,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "68:4:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "67:6:6"
+            },
+            "scope": 823,
+            "src": "46:79:6",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 824,
+        "src": "26:101:6"
+      }
+    ],
+    "src": "0:128:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x432adf73ac67ff0810eae7dec53dbf077f228a6e",
+      "transactionHash": "0x7289a3af5901f352c74cb27d5634e21b54ce46a60ca18d4cb93de194518bdf39"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-18T05:29:17.857Z"
+}

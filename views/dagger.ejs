@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- RALEWAY FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500" rel="stylesheet">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+    <title>HASH</title>
+
+    <style>
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+
+        /* unvisited link */
+
+        a:link {
+            color: blue;
+        }
+
+        /* visited link */
+
+        a:visited {
+            color: white;
+        }
+
+        /* mouse over link */
+
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+
+        a:active {
+            color: blue;
+        }
+
+        .iframeW {
+            background: red;
+            margin-left: 500px;
+        }
+    </style>
+
+</head>
+
+<style type="text/css">
+</style>
+
+<body>
+
+    <div class="page-container">
+
+        <div class="row">
+
+            <!-- SIDENAV BEGINS -->
+
+
+            <div class="col-lg-2 sidenav">
+                <div class="title">
+                    <a href="/store">MARKET</a>
+                </div>
+                <div class="title">
+                    <a href="/access">SHOWTIME</a>
+                </div>
+                <div class="title">
+                    <a href="/up">UPLOAD</a>
+                </div>
+                <div class="title">
+                    <a href="/transfer">TRANSFER</a>
+                </div>
+                <div class="title">
+                    <a href="/daggger">DAGGER LOGS</a>
+                </div>
+            </div>
+
+            <!-- SIDENAV ENDS -->
+
+
+
+
+
+
+            <!-- MAIN BODY BEGINS -->
+
+
+            <div class="offset-lg-2 col-lg-10 main-body">
+
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card top-card">
+                            <div class="card-body">
+                                <div class="top-card-title text-center text-white">
+                                    <strong>Matic Dagger Transaction Logs</strong>
+                                </div>
+                                <br>
+                                <div class="top-card-body">
+                                    Using dagger server to get realtime updates from Ethereum Network.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+
+                <table class="table" style="color: white;font-size: 3vh">
+                    <thead>
+                        <tr>
+                            <th scope="col">Index</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">Trx Hash</th>
+                            <th scope="col">Gas Used</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% blocks.forEach(function(block){%>
+                            <tr style="color: white;font-size: 1.2rem">
+                                <td>
+                                    <%= block.logs[0].logIndex %>
+                                </td>
+                                <td>
+                                    <%= block.logs[0].type %>
+                                </td>
+                                <td>
+                                    <%= block.transactionHash %>
+                                </td>
+                                <td>
+                                    <%= block.gasUsed %>
+                                </td>
+                            </tr>
+                            <%});%>
+
+                    </tbody>
+                </table>
+
+
+
+
+
+            </div>
+
+            <!-- MAIN BODY ENDS -->
+
+        </div>
+
+
+        <!-- ALL MODALS -->
+
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
